@@ -31,7 +31,7 @@ const Home:React.FC = () => {
             animateOut="fadeOut"
             duration={1.2}
           >
-                <div className ="Second-div" id="aboutme">
+                <div className ="Second-div" id="aboutme" style={{"backgroundColor":"rgb(0,100,255)",color:"white"}}>
                         <div>
                             <img style={{"width":"150px","borderRadius":"50%",'boxShadow' : '3px 4px 5px #444444'}} src={girl} alt="" />
                         </div>
@@ -73,7 +73,7 @@ const Home:React.FC = () => {
 
 
             <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut" duration={1.6} delay={0.8}>
-                <div className ="Second-div" id="aboutme">
+                <div className ="Second-div" id="aboutme" style={{"backgroundColor":"violet"}}>
                        
                         <div>
                             <h2 style={{"fontFamily":"cursive"}}>My experience</h2>
@@ -113,6 +113,9 @@ const Home:React.FC = () => {
                             <h3 style={{"fontFamily":"cursive"}}>Tools and Technologies </h3>
                             <div>
                             <LinearProgress variant= "determinate"/>
+                            This website is underprogress.
+                            <br />
+                            Thanks for your patience
                             </div>
                         </div>
                         <div>
