@@ -12,12 +12,15 @@ import { LinearProgress } from '@material-ui/core'
 const Home:React.FC = () => {
     return (
         <>
-            <div className="outer-home" style={{"display":"flex","justifyContent":"space-around"}}>
-                
+            <div className="outer-home" style={{"display":"flex","justifyContent":"space-around","padding":"100px 5px"}}>
+                        
                     <div className="pages" style={{"marginTop":"100px"}}>
+                    <div>
+                        <img style={{"width":"150px","borderRadius":"50%",'boxShadow' : '6px 6px 57px black'}} src={girl} alt="" />
+                    </div>
                         <div ><img id="homelogo" src={Logo} alt="" /></div>
                     </div>
-                    <div className ="Second-div">
+                    <div className ="Second-div" style={{"paddingTop":"50px", "backgroundColor":"transparent","textShadow":"5px 8px 4px grey", "color":"white","backgroundImage":"none","boxShadow":"none"}}>
                             Hello, 
                             I am <h3><em>Pragya Mukherjee</em></h3> <br />
                             a Tech Enthusiast from Kolkata, India
@@ -26,6 +29,7 @@ const Home:React.FC = () => {
                 
             </div>
 
+            <div style={{'backgroundColor':"white","width":"100%","padding":"1px 5px 20px 5px","marginLeft":"-5px","marginTop":"50px"}}>
             <ScrollAnimation
             animateIn="bounceInLeft"
             animateOut="fadeOut"
@@ -70,10 +74,11 @@ const Home:React.FC = () => {
                         </div>
                 </div>
             </ScrollAnimation>
+            </div>
 
-
+            
             <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut" duration={1.6} delay={0.8}>
-                <div className ="Second-div" id="aboutme" style={{"backgroundColor":"violet"}}>
+                <div className ="Second-div" id="aboutme" style={{"backgroundColor":"violet","marginTop":"5px"}}>
                        
                         <div>
                             <h2 style={{"fontFamily":"cursive"}}>My experience</h2>

@@ -17,7 +17,7 @@ const Navigation:React.FC = () => {
     return (
         <div className = "mainpageouter" >
             <Router>
-                <AppBar style={{backgroundImage:"linear-gradient(rgba(166, 216, 245, 0.534), rgba(240, 100, 240, 0.342))"}} position="fixed" variant="outlined">
+                <AppBar style={{backgroundColor:"white","color":"black"}} position="fixed" variant="outlined">
                     <Toolbar>
                         <img src={Logo} alt="" width = "100px"/>
                         <Typography style={{"marginLeft":"auto"}}>
