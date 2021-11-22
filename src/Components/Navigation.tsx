@@ -16,7 +16,7 @@ const Navigation:React.FC = () => {
     
     return (
         <div className = "mainpageouter" >
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <AppBar style={{backgroundColor:"white","color":"black"}} position="fixed" variant="outlined">
                     <Toolbar>
                         <img src={Logo} alt="" width = "100px"/>
