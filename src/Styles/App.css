@@ -1,6 +1,6 @@
 body{
     overflow-y: auto!important;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth!important;
 }
 .fixedImage{
     margin-top: -50px!important;

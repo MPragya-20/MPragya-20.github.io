@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../Assets/Logo.png'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; //Use hashRouter for github pages to understand routes
 
 import { AppBar,Toolbar,Typography} from '@material-ui/core'
 
