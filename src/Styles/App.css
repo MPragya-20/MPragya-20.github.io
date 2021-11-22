@@ -34,6 +34,8 @@ body{
     height: auto;
     position: fixed!important;
     z-index: 3;
+    border-radius: 38px;
+    box-shadow: 3px 5px 5px #3a3939;
 }
 .sidebar-list{
     margin-top: 50px;
@@ -50,8 +52,8 @@ body{
     margin-top: -5px;
     margin-bottom: 5px;
     position: static;
-    
 } 
+
 .social{
     width: 30px;
     border-radius: 50%;
@@ -76,7 +78,7 @@ body{
     background-image: linear-gradient(rgba(166, 216, 245, 0.534), rgba(240, 100, 240, 0.342));
     padding: 10px 50px;
     z-index: 1!important;
-    width: 60%;
+    width: 65%;
     margin: auto;
     margin-top: 90px;
     text-align: center;
@@ -84,7 +86,7 @@ body{
     padding: 10px;
     margin-bottom: 20px!important;
 }
-#aboutme{
+.aboutme{
     font-size: 1.2rem;
     color: black;
     letter-spacing: 2px;
@@ -94,10 +96,11 @@ body{
 @media only screen and (max-width:850px){
     .outer-home{
         display: block!important;
+        padding: 10px!important;
     }
     .pages{
         width: 70%!important;
-        padding: 10px;
+        padding: 10px!important;
     }
     #homelogo{
         width: 150px;
@@ -106,8 +109,9 @@ body{
     .Second-div{
         margin-top: 10px!important;
         width: 80%;
+        padding: 10px!important;
     }
-    #aboutme{
+    .aboutme{
         font-size: 0.8rem;
         display: block;
     }

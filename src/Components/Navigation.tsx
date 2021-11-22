@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../Assets/Logo.png'
-import { HashRouter as Router, Routes, Route } from "react-router-dom"; //Use hashRouter for github pages to understand routes
+import { Routes, Route } from "react-router-dom";
 
 import { AppBar,Toolbar,Typography} from '@material-ui/core'
 
@@ -16,12 +16,11 @@ const Navigation:React.FC = () => {
     
     return (
         <div className = "mainpageouter" >
-            <Router basename={process.env.PUBLIC_URL}>
                 <AppBar style={{backgroundColor:"white","color":"black"}} position="fixed" variant="outlined">
                     <Toolbar>
                         <img src={Logo} alt="" width = "100px"/>
                         <Typography style={{"marginLeft":"auto"}}>
-                            <Link className = "nav-item" style={{"textDecoration":"none","marginRight":"10px"}} color="inherit" href="#aboutme">About me</Link>
+                            <Link className = "nav-item" style={{"textDecoration":"none","marginRight":"10px"}} color="inherit" href="#me">About me</Link>
                             <Link className = "nav-item" style={{"textDecoration":"none","marginRight":"10px"}} color="inherit" href="/contact">Contact me</Link>
                         </Typography>
                         
@@ -38,7 +37,6 @@ const Navigation:React.FC = () => {
                     <Route path="/portfolio" caseSensitive={false} element={<Portfolio />} />
                     <Route path="/contact" caseSensitive={false} element={<ContactMe />} />
                 </Routes>
-            </Router>
             
         </div>
     )

@@ -29,13 +29,13 @@ const Home:React.FC = () => {
                 
             </div>
 
-            <div style={{'backgroundColor':"white","width":"100%","padding":"1px 5px 20px 5px","marginLeft":"-5px","marginTop":"50px"}}>
+            <div id="me" style={{'backgroundColor':"white","width":"100%","padding":"1px 5px 20px 5px","marginLeft":"-5px","marginTop":"50px"}}>
             <ScrollAnimation
             animateIn="bounceInLeft"
             animateOut="fadeOut"
             duration={1.2}
           >
-                <div className ="Second-div" id="aboutme" style={{"backgroundColor":"rgb(0,100,255)",color:"white"}}>
+                <div className ="Second-div aboutme" style={{"backgroundColor":"rgb(0,100,255)",color:"white"}}>
                         <div>
                             <img style={{"width":"150px","borderRadius":"50%",'boxShadow' : '3px 4px 5px #444444'}} src={girl} alt="" />
                         </div>
@@ -78,7 +78,7 @@ const Home:React.FC = () => {
 
             
             <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut" duration={1.6} delay={0.8}>
-                <div className ="Second-div" id="aboutme" style={{"backgroundColor":"violet","marginTop":"5px"}}>
+                <div className ="Second-div aboutme" style={{"backgroundColor":"violet","marginTop":"5px"}}>
                        
                         <div>
                             <h2 style={{"fontFamily":"cursive"}}>My experience</h2>
@@ -111,7 +111,7 @@ const Home:React.FC = () => {
             animateOut="fadeOut"
             duration={1.2}
           >
-                <div className ="Second-div" id="aboutme" style={{"justifyContent":"space-between"}}>
+                <div className ="Second-div aboutme" style={{"justifyContent":"space-between"}}>
                         
 
                         <div>
