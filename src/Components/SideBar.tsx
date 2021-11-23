@@ -11,7 +11,7 @@ const SideBar:React.FC = () => {
                 <ListItem className="sidebar-list"><a href="https://github.com/MPragya-20"><img className="social" src={Github} alt="" /></a></ListItem>
                 <ListItem className="sidebar-list"><a href="https://www.linkedin.com/in/pragyamukherjee/"><img className="social"src={Linkedin} alt="" /></a></ListItem>
                 <hr/>
-                <ListItem className="sidebar-list"><a href="hero"><i style={{"color":"white"}} className="fa fa-home"><br /> <small>Home</small></i></a></ListItem>
+                <ListItem className="sidebar-list"><a href="#hero"><i style={{"color":"white"}} className="fa fa-home"><br /> <small>Home</small></i></a></ListItem>
                 <ListItem className="sidebar-list"><a href="#portfolio"><i style={{"color":"white"}} className="fa fa-briefcase"><br /> <small>Works</small></i></a></ListItem>
 
             </List> 
