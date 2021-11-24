@@ -34,8 +34,8 @@ const Home:React.FC = () => {
                     <div className ="Second-div" style={{"paddingTop":"10px",'marginBottom':"-80px", "backgroundColor":"transparent","textShadow":"5px 8px 4px grey", "color":"white","backgroundImage":"none","boxShadow":"none"}}>
                     <img src={wave} alt=""  width="100px" className="wave"/> <br />
                                 Hello,  <br />
-                                I am <h3><em style={{"fontFamily":"fantasy"}}>Pragya Mukherjee</em></h3> <br />
-                                a Tech Enthusiast from Kolkata, India
+                                I am <h3 style={{"fontFamily":"monospace"}}> Pragya Mukherjee, <small>a Tech Enthusiast from Kolkata, India</small> </h3>
+                                
                     </div>
             </div>
             <div className = "message-popup" style ={{"position":"fixed",'visibility': showPopup === 1? "visible":"hidden"}}>

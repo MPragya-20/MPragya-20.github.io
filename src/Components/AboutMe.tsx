@@ -62,7 +62,7 @@ const AboutMe:React.FC = () => {
         },
         {
             id:10,
-            tool:"SQLi",
+            tool:"MYSQLi",
             progress:"55%"
         }
     ]
@@ -119,7 +119,7 @@ const AboutMe:React.FC = () => {
 
             
             <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut" duration={1.6} delay={0.8}>
-                <div className ="Second-div aboutme" style={{"backgroundColor":"violet","marginTop":"20px","display":"flex","justifyContent":"space-between"}}>
+                <div className ="Second-div aboutme" style={{"backgroundColor":"violet","marginTop":"20px","display":"flex","justifyContent":"space-between","textAlign":"center"}}>
                        
                         <div>
                             <h2 style={{"fontFamily":"cursive"}}>My experience</h2>
@@ -140,10 +140,20 @@ const AboutMe:React.FC = () => {
                                     <TimelineContent><strong>The Entrepreneurship Network</strong> <br /> <small>React Developer Associate Intern- (Aug-Nov, 2021)</small><br /><br /></TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
-                                    <TimelineDot color="secondary"/>
+                                <TimelineSeparator>
+                                    <TimelineDot color= "secondary" />
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
                                     <TimelineContent><strong>CodeSpeedy Technology Pvt Ltd </strong><small> (Source Code Provider)-2 months</small></TimelineContent>
                                 </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineDot color="primary"/>
+                                    <TimelineContent><strong>Campus Ambassador - Inmovidu in collaboration with Oasis BITS PILANI </strong><small> 07/2020 - 08/2020</small></TimelineContent>
+                                </TimelineItem>
                             </Timeline>
+
+
+                        
                         </div>
                         <div><img style={{"width":"100px","borderRadius":"50%",'boxShadow' : '3px 4px 5px #444444'}} src={work} alt="" /></div>
                 </div>

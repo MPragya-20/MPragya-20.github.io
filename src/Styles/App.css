@@ -142,7 +142,7 @@ body{
     float: left;
     margin: 10px;
     width: 220px;
-    height: 220px;
+    height: 270px;
     box-shadow: 3px 4px 7px #302f2f;
 }
 .port-outer-each:hover{
@@ -164,7 +164,7 @@ body{
     }
     .port-outer-each{
         width: 150px;
-        height: 150px;
+        height: 240px;
     }
     .port-images{
         width: 80px;
@@ -184,8 +184,11 @@ body{
         width: 100%!important;
         padding: 10px!important;
     }
-    #homelogo,.wave{
+    #homelogo{
         width: 150px;
+        margin: auto!important;
+    }
+    .wave{
         margin: auto!important;
     }
     .Second-div{
@@ -207,8 +210,8 @@ body{
         width: 400px;
     }
     .port-outer-each{
-        width: 150px;
-        height: 150px;
+        width: 155px;
+        height: 190px;
         margin-right: 20px;
     }
     .port-images{
