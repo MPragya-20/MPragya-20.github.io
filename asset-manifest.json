@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d6bc4fb.chunk.css",
-    "main.js": "/static/js/main.fd0c5393.chunk.js",
-    "main.js.map": "/static/js/main.fd0c5393.chunk.js.map",
+    "main.css": "/static/css/main.a48e625d.chunk.css",
+    "main.js": "/static/js/main.fdcddc69.chunk.js",
+    "main.js.map": "/static/js/main.fdcddc69.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/js/2.c46a0228.chunk.js": "/static/js/2.c46a0228.chunk.js",
     "static/js/2.c46a0228.chunk.js.map": "/static/js/2.c46a0228.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7d6bc4fb.chunk.css.map": "/static/css/main.7d6bc4fb.chunk.css.map",
+    "static/css/main.a48e625d.chunk.css.map": "/static/css/main.a48e625d.chunk.css.map",
     "static/js/2.c46a0228.chunk.js.LICENSE.txt": "/static/js/2.c46a0228.chunk.js.LICENSE.txt",
     "static/media/Calculator.6e4eb8aa.png": "/static/media/Calculator.6e4eb8aa.png",
     "static/media/Github.a885b654.jpg": "/static/media/Github.a885b654.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
     "static/js/2.c46a0228.chunk.js",
-    "static/css/main.7d6bc4fb.chunk.css",
-    "static/js/main.fd0c5393.chunk.js"
+    "static/css/main.a48e625d.chunk.css",
+    "static/js/main.fdcddc69.chunk.js"
   ]
 }
