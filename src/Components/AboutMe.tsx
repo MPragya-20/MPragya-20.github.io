@@ -18,7 +18,7 @@ const AboutMe:React.FC = () => {
         {
             id:1,
             tool:"Python",
-            progress:"60%"
+            progress:"70%"
         },
         {
             id:2,
@@ -28,7 +28,7 @@ const AboutMe:React.FC = () => {
         {
             id:3,
             tool:"JavaScript",
-            progress:"60%"
+            progress:"80%"
         },
         {
             id:4,
@@ -42,8 +42,8 @@ const AboutMe:React.FC = () => {
         },
         {
             id:6,
-            tool:"React JS",
-            progress:"65%"
+            tool:"React JS, Redux",
+            progress:"85%"
         },
         {
             id:7,
@@ -64,7 +64,22 @@ const AboutMe:React.FC = () => {
             id:10,
             tool:"MYSQLi",
             progress:"55%"
-        }
+        },
+        {
+            id:11,
+            tool:"PyTest - Backend Automation Testing",
+            progress:"80%"
+        },
+        {
+            id:12,
+            tool:"Prompt Engineering, WatsonX AI",
+            progress:"40%"
+        },
+        {
+            id:13,
+            tool:"CI-CD",
+            progress:"50%"
+        },
     ]
     return (
         <div>
@@ -130,7 +145,28 @@ const AboutMe:React.FC = () => {
                                     <TimelineDot color= "secondary" />
                                     <TimelineConnector />
                                     </TimelineSeparator>
-                                    <TimelineContent><strong>Aniworks</strong> <br /><small>Software Engineer Intern <span>(2021-Present)</span></small><br /><br /></TimelineContent>
+                                    <TimelineContent><strong>IBM</strong> <br /><small>Software Developer<span>(Jul, 2023-Present)</span></small><br /><br /></TimelineContent>
+                                </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineSeparator>
+                                    <TimelineDot color= "secondary" />
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent><strong>IBM (Internship)</strong> <br /><small>Software Engineer Intern <span>(Feb, 2023-Jul, 2023)</span></small><br /><br /></TimelineContent>
+                                </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineSeparator>
+                                    <TimelineDot color= "secondary" />
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent><strong>Clapingo</strong> <br /><small>Front End Developer Intern <span>(Jul, 2022-Dec, 2022)</span></small><br /><br /></TimelineContent>
+                                </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineSeparator>
+                                    <TimelineDot color= "secondary" />
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent><strong>Aniworks</strong> <br /><small>Software Engineer Intern <span>(Oct, 2021-Jul, 2022)</span></small><br /><br /></TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
                                     <TimelineSeparator>
